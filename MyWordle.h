@@ -12,8 +12,6 @@ std::string GetRandomWord(std::vector<std::string>& stdvectorOfWords);
 
 void PlayGame(int numberOfRounds, std::string& wordToGuess, bool& won);
 
-bool IsEmpty(std::fstream& pFile);
-
 void PrintWordByColorCode(std::string& word, std::string& colorCode, int& lengthOfColorCodeString);
 
 enum ConsoleColors
