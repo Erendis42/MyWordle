@@ -234,8 +234,3 @@ void GetGuess(string& userInput)
         }
     }
 }
-
-bool IsEmpty(fstream& pFile)
-{
-    return pFile.peek() == fstream::traits_type::eof();
-}
